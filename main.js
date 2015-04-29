@@ -1,7 +1,7 @@
-$( '.dan' ).click(function() {
+$( '.button1' ).click(function() {
     alert( "Hey you clicked on me." );
 });
 
-$( '#iwao' ).click(function() {
-    alert( "Hey you clicked on me again." );
+$( '#button2' ).click(function() {
+   $( '#button2' ).hide();
 });
